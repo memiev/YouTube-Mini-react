@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../img/logo.png';
 
 class SearchBar extends React.Component {
     state = { term: ''}
@@ -18,8 +19,9 @@ class SearchBar extends React.Component {
                 <form onSubmit={this.onFormSubmit} className='fomr ui'>
                     <div className='field'>
                     <div className="ui action input">
-                        <input onChange={this.onInputChange} value={this.state.term} type="text" placeholder="Search..."/>
+                        <input className='line' onChange={this.onInputChange} value={this.state.term} type="text" placeholder="Search..."/>
                         <button className="ui button ">Video Search</button>
+                        <img className='logo' src={logo} alt="Logo"/>
                     </div>
                     </div>
                 </form>

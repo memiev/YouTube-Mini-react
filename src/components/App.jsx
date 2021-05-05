@@ -4,11 +4,13 @@ import youtube from "../api/youtube";
 import VideoList from "./VideoList";
 import VideoDetail from './VideoDetail';
 
+
+
 class App extends React.Component {
   state = { videos: [], selectedVideo: null };
 
     componentDidMount(){
-        this.onTermSubmit('react');
+        this.onTermSubmit('react crash');
     }
 
   onTermSubmit = async (term) => {
@@ -32,6 +34,7 @@ class App extends React.Component {
     return (
       <div className="ui container">
         <SearchBar callParentSubmit={this.onTermSubmit} />
+        <img src='../img/logo2.png' alt=""/>
         <div className='ui grid '>
             <div className='ui row'>
                 <div className='eleven wide column'>
