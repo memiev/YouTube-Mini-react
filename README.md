@@ -1,6 +1,7 @@
+
 # +VIDEO Search&Watch 
 
-PREVIEW: 
+PREVIEW: https://you-tube-mini-react.vercel.app/
 
 -Ref system - Accessing the DOM with Refs
 
@@ -17,3 +18,5 @@ PREVIEW:
 -Rendering Elements
 
 -App created with React
+
+![previewYuoMiniApp-react2](https://user-images.githubusercontent.com/60774707/117118443-70436a80-ad99-11eb-8629-63eef8846ff7.jpg)
